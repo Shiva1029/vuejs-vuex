@@ -43,7 +43,7 @@ export const store = new Vuex.Store({
         },
         deleteWidget(state, id) {
             const wid = state.widgets.find(widget => {
-                return widget.id == id;
+                return widget.id == id.userId;
             });
             state.widgets.splice(state.widgets.indexOf(wid), 1);
         }
