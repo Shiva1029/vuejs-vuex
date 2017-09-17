@@ -1,6 +1,6 @@
 # my-project
 
-> hellow world
+> hello world
 
 ## Build Setup
 
