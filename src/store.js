@@ -24,15 +24,15 @@ export const store = new Vuex.Store({
             }]
     },
     getters: {
-        getWidgets(state) {
+        getWidgets: (state) => {
             return state.widgets;
         },
-        countTotalWidgets(state) {
+        countTotalWidgets: (state) => {
             return state.widgets.length;
         }
     },
     mutations: {
-        addWidget(state) {
+        addWidget: (state) => {
             const widget = {
                 id: state.counter,
                 name: 'widget' + state.counter,
@@ -41,7 +41,7 @@ export const store = new Vuex.Store({
             state.widgets.push(widget);
             state.counter++;
         },
-        deleteWidget(state, id) {
+        deleteWidget: (state, id) => {
             const wid = state.widgets.find(widget => {
                 return widget.id == id.userId;
             });
