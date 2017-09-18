@@ -1,6 +1,6 @@
-# my-project
+vuejs 2.0: vuex-vue-router with Bootstrap
 
-> hellow world
+> hello world
 
 ## Build Setup
 
