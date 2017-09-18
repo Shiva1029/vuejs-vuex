@@ -1,7 +1,5 @@
 vuejs 2.0: vuex-vue-router with Bootstrap
 
-> hello world
-
 ## Build Setup
 
 ``` bash
